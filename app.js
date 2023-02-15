@@ -4,6 +4,7 @@ const heroTitle = document.getElementById("heroTitle");
 const description = document.getElementById("description");
 const kanyeAPI = "https://api.kanye.rest/";
 const randomUserAPI = "https://randomuser.me/api/?results=20";
+const restCountries = "https://restcountries.com/";
 const URL = "https://jsonplaceholder.typicode.com/todos/1";
 const POST_URL = "https://jsonplaceholder.typicode.com/posts";
 
