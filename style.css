@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #acacac;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 5px;
+}
+
+.profile {
+  display: grid;
+  background-color: #ccc;
+  justify-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile img {
+  border-radius: 10px;
+}
+.profile address {
+  text-align: center;
+}
